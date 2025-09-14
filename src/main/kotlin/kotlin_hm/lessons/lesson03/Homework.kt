@@ -1,4 +1,4 @@
-package kotlin_hm.lessons.lesson03
+package kotlin_hm.kotlin_hm.lessons.lesson03
 
 // 1. Название мероприятия (публичная, неизменяемая, известная на момент написания)
 val name: String = "Fisrt Hackaton"
@@ -85,4 +85,3 @@ private var internetcontroller: Double = 0.5
 
 // 26. Уровень освещения (публичная, изменяемая, известная на момент написания)
 var lighting: String = "150 лк"
-
