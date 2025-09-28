@@ -104,7 +104,7 @@ fun main() {
 
     // 14. В цикле for от 1 до 10 используйте continue, чтобы пропустить четные числа
 
-    for (i in 1..10){
+    for (i in 1..10) {
         if (i % 2 == 0) continue
         println(i)
     }
@@ -116,6 +116,25 @@ fun main() {
     while (++z <= 10) {
         if (z % 3 == 0) continue
         println(z)
+    }
+    println()
+
+    // 16 Используя вложенный цикл реализовать таблицу умножения, как на картинке.
+
+    for (s1 in 1..10) {
+        for (s2 in 1..10) {
+            print(s1 * s2)
+            print(" ")
+        }
+        println()
+    }
+
+
+    // 17. Напишите функцию, которая суммирует числа от 1 до 'arg' с помощью цикла for
+
+    for (arg in 1..10) {
+        var counter: Int = 0
+        println(arg + counter)
     }
 
 
