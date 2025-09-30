@@ -130,12 +130,5 @@ fun main() {
     }
 
 
-    // 17. Напишите функцию, которая суммирует числа от 1 до 'arg' с помощью цикла for
-
-    for (arg in 1..10) {
-        var counter: Int = 0
-        println(arg + counter)
-    }
-
 
 }
