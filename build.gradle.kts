@@ -17,6 +17,7 @@ dependencies {
     // Добавление движка JUnit Jupiter для запуска тестов
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
     implementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.7.0")
 }
 
 tasks.test {
