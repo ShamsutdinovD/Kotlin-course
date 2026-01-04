@@ -6,7 +6,7 @@ import org.junit.jupiter.params.provider.ValueSource
 import kotlin.test.assertEquals
 
 
-class PhoneNumberFormatterTest {
+class PhoneNumberFormatter {
 
     @ParameterizedTest
     @MethodSource("validPhones")
